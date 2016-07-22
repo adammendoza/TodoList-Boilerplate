@@ -31,7 +31,7 @@ This is a starter repository for quickly adding a new TodoList implementation fo
 
 ## Quick start for developing locally:
 
-1. Install the [06-06-DEVELOPMENT Swift toolchain](https://swift.org/download/) 
+1. Install the [06-20-DEVELOPMENT Swift toolchain](https://swift.org/download/) 
 
 2. Clone the boilerplate:
 
