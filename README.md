@@ -6,7 +6,7 @@
 
 An example using the Kitura web framework and HTTP Server to develop a backend for a todo list organizer
 
-This is a starter repository for quickly adding a new TodoList implementation for a specific database. It was created to encourage the Swift community for integrating with more databases. You can find the REST API here: [TodoList Swagger](https://github.com/IBM-Swift/todolist-swagger).
+This is a starter repository for quickly adding a new TodoList implementation for a specific database. It was created to encourage the Swift community for integrating with more databases. 
 
 ## Current Implementations:
 
@@ -24,6 +24,12 @@ This is a starter repository for quickly adding a new TodoList implementation fo
  - TodoList Cassandra
  - TodoList SQLite
 
+## Related Projects:
+
+ - [TodoList Swagger API](https://github.com/IBM-Swift/todolist-swagger) REST API specification
+ - [TodoList Tests](https://github.com/IBM-Swift/todolist-tests). Unit Tests
+ - [TodoList Web](https://github.com/IBM-Swift/todolist-web). Web controller logic
+ 
 ## Requirements:
 
  - swift-DEVELOPMENT-06-20-SNAPSHOT compiler toolchain
