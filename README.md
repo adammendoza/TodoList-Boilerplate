@@ -26,9 +26,9 @@ This is a starter repository for quickly adding a new TodoList implementation fo
 
 ## Related Projects:
 
- - [TodoList Swagger API](https://github.com/IBM-Swift/todolist-swagger) REST API specification
- - [TodoList Tests](https://github.com/IBM-Swift/todolist-tests). Unit Tests
- - [TodoList Web](https://github.com/IBM-Swift/todolist-web). Web controller logic
+ - [TodoList Swagger API](https://github.com/IBM-Swift/todolist-swagger) 
+ - [TodoList Tests](https://github.com/IBM-Swift/todolist-tests)
+ - [TodoList Web](https://github.com/IBM-Swift/todolist-web)
  
 ## Requirements:
 
