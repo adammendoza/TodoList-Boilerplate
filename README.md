@@ -4,9 +4,9 @@
 [![Swift 3 6-06](https://img.shields.io/badge/Swift%203-6/20 SNAPSHOT-blue.svg)](https://swift.org/download/#snapshots)
 
 
-> An example using the Kitura web framework and HTTP Server to develop a backend for a todo list organizer
+An example using the Kitura web framework and HTTP Server to develop a backend for a todo list organizer
 
-This is a starter repository for quickly adding a new TodoList implementation for a specific database. It was created to encourage the Swift community for integrating with more databases. 
+This is a starter repository for quickly adding a new TodoList implementation for a specific database. It was created to encourage the Swift community for integrating with more databases. You can find the REST API here: [TodoList Swagger](https://github.com/IBM-Swift/todolist-swagger).
 
 ## Current Implementations:
 
