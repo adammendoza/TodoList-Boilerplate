@@ -26,8 +26,8 @@ This is a starter repository for quickly adding a new TodoList implementation fo
 
 ## Requirements:
 
- - swift-DEVELOPMENT-06-06-SNAPSHOT compiler toolchain
- - XCode version 7.3
+ - swift-DEVELOPMENT-06-20-SNAPSHOT compiler toolchain
+ - Xcode version 8 (beta 3)
 
 ## Quick start for developing locally:
 
