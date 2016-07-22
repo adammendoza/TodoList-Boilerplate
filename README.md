@@ -16,11 +16,11 @@ This is a starter repository for quickly adding a new TodoList implementation fo
  - [TodoList Redis](https://github.com/IBM-Swift/todolist-redis)
  - [TodoList MongoDB](https://github.com/IBM-Swift/todolist-mongodb)
  - [TodoList PostgreSQL](https://github.com/IBM-Swift/todolist-postgresql)
+ - [TodoList MySQL](https://github.com/IBM-Swift/todolist-mysql)
  
 ## In progress:
 
  - TodoList DB2/DashDB
- - TodoList MySQL
  - TodoList Cassandra
  - TodoList SQLite
 
