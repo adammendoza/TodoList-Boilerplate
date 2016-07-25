@@ -1,6 +1,6 @@
 # Kitura Todo List Boilerplate
 
-[![Build Status](https://travis-ci.org/IBM-Swift/todolist-boilerplate.svg?branch=master)](https://travis-ci.org/IBM-Swift/todolist-boilerplate)
+[![Build Status](https://travis-ci.org/IBM-Swift/TodoList-Boilerplate.svg?branch=master)](https://travis-ci.org/IBM-Swift/TodoList-Boilerplate)
 [![Swift 3 6-06](https://img.shields.io/badge/Swift%203-6/20 SNAPSHOT-blue.svg)](https://swift.org/download/#snapshots)
 
 
