@@ -1,7 +1,7 @@
 # Kitura Todo List Boilerplate
 
 [![Build Status](https://travis-ci.org/IBM-Swift/TodoList-Boilerplate.svg?branch=master)](https://travis-ci.org/IBM-Swift/TodoList-Boilerplate)
-[![Swift 3 6-06](https://img.shields.io/badge/Swift%203-6/20 SNAPSHOT-blue.svg)](https://swift.org/download/#snapshots)
+[![Swift 3 9-03](https://img.shields.io/badge/Swift%203-6/20 SNAPSHOT-blue.svg)](https://swift.org/download/#snapshots)
 
 
 An example using the Kitura web framework and HTTP Server to develop a backend for a todo list organizer
@@ -17,11 +17,11 @@ This is a starter repository for quickly adding a new TodoList implementation fo
  - [TodoList MongoDB](https://github.com/IBM-Swift/todolist-mongodb)
  - [TodoList PostgreSQL](https://github.com/IBM-Swift/todolist-postgresql)
  - [TodoList MySQL](https://github.com/IBM-Swift/todolist-mysql)
+ - [TodoList DB2/DashDB](https://github.com/IBM-Swift/todolist-db2)
+ - [TodoList Cassandra](https://github.com/IBM-Swift/todolist-cassandra)
  
 ## In progress:
 
- - TodoList DB2/DashDB
- - TodoList Cassandra
  - TodoList SQLite
 
 ## Related Projects:
