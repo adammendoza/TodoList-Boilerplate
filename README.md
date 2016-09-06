@@ -1,7 +1,7 @@
 # Kitura Todo List Boilerplate
 
 [![Build Status](https://travis-ci.org/IBM-Swift/TodoList-Boilerplate.svg?branch=master)](https://travis-ci.org/IBM-Swift/TodoList-Boilerplate)
-[![Swift 3 9-03](https://img.shields.io/badge/Swift%203-6/20 SNAPSHOT-blue.svg)](https://swift.org/download/#snapshots)
+[![Swift 3 9-03](https://img.shields.io/badge/Swift%203-9/03 SNAPSHOT-blue.svg)](https://swift.org/download/#snapshots)
 
 
 An example using the Kitura web framework and HTTP Server to develop a backend for a todo list organizer
@@ -32,12 +32,12 @@ This is a starter repository for quickly adding a new TodoList implementation fo
  
 ## Requirements:
 
- - swift-DEVELOPMENT-06-20-SNAPSHOT compiler toolchain
+ - swift-DEVELOPMENT-09-03-SNAPSHOT compiler toolchain
  - Xcode version 8 (beta 3)
 
 ## Quick start for developing locally:
 
-1. Install the [06-20-DEVELOPMENT Swift toolchain](https://swift.org/download/) 
+1. Install the [09-03-DEVELOPMENT Swift toolchain](https://swift.org/download/) 
 
 2. Clone the boilerplate:
 
