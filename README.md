@@ -56,12 +56,6 @@ This is a starter repository for quickly adding a new TodoList implementation fo
   swift package generate-xcodeproj
   ```
 
-3. Add additional Library Search Path:   
-
-  Currently the 06-06 snapshot will automatically generate an XCode project, but will fail to find compiled libraries that are located in .build/debug. You must manually add a search path to the XCode project. Open the XCode project and in the 'Build Settings' of both the ***Kitura*** and ***Kitura-net*** modules, add the following to your ***Library Search Paths***:
-    
-    `$SRCROOT/.build/debug`
-
 4. (Optional) Clone the Unit Tests for TodoList in to your project directory
 
   Make sure you are in the root of your project where Package.swift and Sources/ directory are.
