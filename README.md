@@ -19,10 +19,7 @@ This is a starter repository for quickly adding a new TodoList implementation fo
  - [TodoList MySQL](https://github.com/IBM-Swift/todolist-mysql)
  - [TodoList DB2/DashDB](https://github.com/IBM-Swift/todolist-db2)
  - [TodoList Cassandra](https://github.com/IBM-Swift/todolist-cassandra)
- 
-## In progress:
-
- - TodoList SQLite
+ - [TodoList SQLite](https://github.com/IBM-Swift/TodoList-SQLite)
 
 ## Related Projects:
 
