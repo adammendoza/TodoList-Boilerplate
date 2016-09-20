@@ -1,14 +1,19 @@
-os: linux
-dist: trusty
-sudo: required
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+    - os: osx
+      osx_image: xcode8
 
 before_install:
-  - wget https://swift.org/builds/development/ubuntu1404/swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a/swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a-ubuntu14.04.tar.gz 
-  - tar xzvf swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a-ubuntu14.04.tar.gz
-  - export PATH=swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a-ubuntu14.04/usr/bin:$PATH
-  - sudo apt-get -y install clang libicu-dev libkqueue-dev libtool libcurl4-openssl-dev libbsd-dev libblocksruntime-dev
-  - git clone -b experimental/foundation https://github.com/apple/swift-corelibs-libdispatch.git && cd swift-corelibs-libdispatch && git submodule init && git submodule update && sh autogen.sh && ./configure --with-swift-toolchain=${PWD}/../swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a-ubuntu14.04/usr --prefix=${PWD}/../swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a-ubuntu14.04/usr && make && make install && cd ..
+
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get update -y ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then wget https://swift.org/builds/swift-3.0-release/ubuntu1404/swift-3.0-RELEASE/swift-3.0-RELEASE-ubuntu14.04.tar.gz    ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then tar xzvf swift-3.0-RELEASE-ubuntu14.04.tar.gz    ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export PATH=swift-3.0-RELEASE-ubuntu14.04/usr/bin:$PATH    ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get -y install clang-3.8 lldb-3.8 libicu-dev libkqueue-dev libtool libcurl4-openssl-dev libbsd-dev libblocksruntime-dev build-essential libwrap0-dev libssl-dev libc-ares-dev uuid-dev xsltproc ; fi
 
 script:
-  - swift build -Xcc -fblocks -Xlinker -rpath -Xlinker .build/debug
-
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then swift build ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then swift build ; fi

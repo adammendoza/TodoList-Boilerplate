@@ -19,38 +19,38 @@ import TodoListAPI
 
 struct TodoList : TodoListAPI {
     
-    func count(withUserID: String?, oncompletion: (Int?, ErrorProtocol?) -> Void) {
-        // TODO:
+    func count(withUserID: String?, oncompletion: @escaping (Int?, Error?) -> Void) {
+        // TODO
     }
     
-    func clear(withUserID: String?, oncompletion: (ErrorProtocol?) -> Void) {
-        // TODO:
+    func clear(withUserID: String?, oncompletion: @escaping (Error?) -> Void) {
+        // TODO
     }
     
-    func clearAll(oncompletion: (ErrorProtocol?) -> Void) {
-        // TODO:
+    func clearAll(oncompletion: @escaping (Error?) -> Void) {
+        // TODO
     }
     
-    func get(withUserID: String?, oncompletion: ([TodoItem]?, ErrorProtocol?) -> Void) {
-        // TODO:
+    func get(withUserID: String?, oncompletion: @escaping ([TodoItem]?, Error?) -> Void) {
+        // TODO
     }
     
-    func get(withUserID: String?, withDocumentID: String, oncompletion: (TodoItem?, ErrorProtocol?) -> Void ) {
-        // TODO:
+    func get(withUserID: String?, withDocumentID: String, oncompletion: @escaping (TodoItem?, Error?) -> Void ) {
+        // TODO
     }
     
-    func add(userID: String?, title: String, order: Int, completed: Bool,
-             oncompletion: (TodoItem?, ErrorProtocol?) -> Void ) {
-        // TODO:
+    func add(userID: String?, title: String, rank: Int, completed: Bool,
+             oncompletion: @escaping (TodoItem?, Error?) -> Void ) {
+        // TODO
     }
     
-    func update(documentID: String, userID: String?, title: String?, order: Int?,
-                completed: Bool?, oncompletion: (TodoItem?, ErrorProtocol?) -> Void ) {
-        // TODO:
+    func update(documentID: String, userID: String?, title: String?, rank: Int?,
+                completed: Bool?, oncompletion: @escaping (TodoItem?, Error?) -> Void ) {
+        // TODO
     }
     
-    func delete(withUserID: String?, withDocumentID: String, oncompletion: (ErrorProtocol?) -> Void) {
-        // TODO:
+    func delete(withUserID: String?, withDocumentID: String, oncompletion: @escaping (Error?) -> Void) {
+        // TODO
     }
     
 }
