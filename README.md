@@ -1,7 +1,8 @@
 # Kitura Todo List Boilerplate
 
 [![Build Status](https://travis-ci.org/IBM-Swift/TodoList-Boilerplate.svg?branch=master)](https://travis-ci.org/IBM-Swift/TodoList-Boilerplate)
-[![Swift 3 9-03](https://img.shields.io/badge/Swift%203-9/03 SNAPSHOT-blue.svg)](https://swift.org/download/#snapshots)
+![](https://img.shields.io/badge/Swift-3.0%20RELEASE-orange.svg?style=flat)
+![](https://img.shields.io/badge/platform-Linux,%20macOS-blue.svg?style=flat)
 
 
 An example using the Kitura web framework and HTTP Server to develop a backend for a todo list organizer
@@ -29,12 +30,9 @@ This is a starter repository for quickly adding a new TodoList implementation fo
  
 ## Requirements:
 
- - swift-DEVELOPMENT-09-03-SNAPSHOT compiler toolchain
- - Xcode version 8 (beta 3)
+ - Xcode 8
 
 ## Quick start for developing locally:
-
-1. Install the [09-03-DEVELOPMENT Swift toolchain](https://swift.org/download/) 
 
 2. Clone the boilerplate:
 
@@ -131,6 +129,12 @@ This is a starter repository for quickly adding a new TodoList implementation fo
     App started
     ```
 
-## License 
+## License
 
-This library is licensed under Apache 2.0. Full license text is available in [LICENSE](LICENSE).
+Copyright 2016 IBM
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
