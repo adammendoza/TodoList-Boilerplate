@@ -11,7 +11,7 @@ This is a starter repository for quickly adding a new TodoList implementation fo
 
 ## Current Implementations:
 
-  The following implementations were created from Todolist-Boilerplate:
+  The following implementations were created from TodoList-Boilerplate:
 
  - [TodoList CouchDB/Cloudant](https://github.com/IBM-Swift/todolist-couchdb/)
  - [TodoList Redis](https://github.com/IBM-Swift/todolist-redis)
@@ -36,12 +36,12 @@ This is a starter repository for quickly adding a new TodoList implementation fo
 
 2. Clone the Boilerplate:
 
-  `git clone https://github.com/IBM-Swift/Todolist-Boilerplate`
+  `git clone https://github.com/IBM-Swift/TodoList-Boilerplate`
 
 3. Run Swift Build
   
   ```
-  cd Todolist-Boilerplate
+  cd TodoList-Boilerplate
   swift build
   ```
   
