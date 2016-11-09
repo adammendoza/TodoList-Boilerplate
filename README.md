@@ -11,7 +11,7 @@ This is a starter repository for quickly adding a new TodoList implementation fo
 
 ## Current Implementations:
 
-  The following implementations were created from todolist-boilerplate:
+  The following implementations were created from Todolist-Boilerplate:
 
  - [TodoList CouchDB/Cloudant](https://github.com/IBM-Swift/todolist-couchdb/)
  - [TodoList Redis](https://github.com/IBM-Swift/todolist-redis)
@@ -34,20 +34,22 @@ This is a starter repository for quickly adding a new TodoList implementation fo
 
 ## Quick start for developing locally:
 
-2. Clone the boilerplate:
+2. Clone the Boilerplate:
 
-  `git clone https://github.com/IBM-Swift/todolist-boilerplate`
+  `git clone https://github.com/IBM-Swift/Todolist-Boilerplate`
 
 3. Run Swift Build
-
-  `swift build`
   
-  An initial build on the command line is required since XCode does not support building the C libraries. THis will comile the CHTTPParser module and place the static library and swift module for http parsing in .build/debug directory.
+  ```
+  cd Todolist-Boilerplate
+  swift build
+  ```
+  
+  An initial build on the command line is required since XCode does not support building the C libraries. This will compile the CHTTPParser module and place the static library and swift module for http parsing in .build/debug directory.
   
 2. Autogenerate an XCode project:
 
   ```
-  cd todolist-boilerplate
   swift package generate-xcodeproj
   ```
 
