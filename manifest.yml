@@ -1,5 +1,5 @@
 applications:
-- name: TodoList-SwiftKuery
+- name: TodoList
   memory: 256M
   instances: 2
   random-route: true
