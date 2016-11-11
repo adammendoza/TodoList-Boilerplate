@@ -16,8 +16,6 @@
 
 import Foundation
 import TodoListAPI
-import SwiftKuery
-import SwiftKueryPostgreSQL
 
 struct TodoList : TodoListAPI {
     
